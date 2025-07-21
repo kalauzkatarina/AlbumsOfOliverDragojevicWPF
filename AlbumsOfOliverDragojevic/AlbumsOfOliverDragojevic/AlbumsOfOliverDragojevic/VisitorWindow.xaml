@@ -1,0 +1,89 @@
+﻿<Window x:Class="AlbumsOfOliverDragojevic.VisitorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlbumsOfOliverDragojevic"
+        mc:Ignorable="d"
+        Title="Details about the album" 
+        Height="500" 
+        Width="650"
+        WindowStartupLocation="CenterScreen"
+        Background="#EADDCA">
+    <Grid Margin="20">
+
+        <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+        <RichTextBox
+             Grid.Column="0"
+             Margin="10"
+             IsReadOnly="True"
+             VerticalScrollBarVisibility="Auto"
+             x:Name="rtfPreview"/>  
+
+        <Grid Grid.Column="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackPanel
+                Grid.Row="0"
+                VerticalAlignment="Top">
+                <TextBlock
+                    Text="Album name:"
+                    FontWeight="Bold"
+                    Foreground="#2b1d0e"
+                    FontSize="14"/>
+                <TextBlock
+                    Text="{Binding AlbumName}"
+                    Margin="0 0 0 10"
+                    TextWrapping="Wrap"
+                    Foreground="#2b1d0e"
+                    FontSize="14"/>
+
+                <TextBlock
+                    Text="Published year:"
+                    FontWeight="Bold"
+                    Foreground="#2b1d0e"
+                    FontSize="14"/>
+                <TextBlock
+                    Text="{Binding PublishedYear}"
+                    Margin="0 0 0 10"
+                    Foreground="#2b1d0e"
+                    FontSize="14"/>
+
+                <TextBlock
+                    Text="Date of adding:"
+                    FontWeight="Bold"
+                    Foreground="#2b1d0e"
+                    FontSize="14"/>
+                <TextBlock
+                    Text="{Binding DateAdded}"
+                    Margin="0 0 0 10"
+                    Foreground="#2b1d0e"
+                    FontSize="14"/>
+
+                <Image Source="{Binding PathToImage}" 
+                       Height="220" 
+                       Width="220"
+                       HorizontalAlignment="Left"/>
+            </StackPanel>
+
+            <Button
+                Grid.Row="1"
+                x:Name="ExitButton"
+                Content="Exit"
+                Width="80"
+                Height="25"
+                FontSize="14"
+                FontWeight="DemiBold"
+                Margin="0 10 0 0"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Click="ExitButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>

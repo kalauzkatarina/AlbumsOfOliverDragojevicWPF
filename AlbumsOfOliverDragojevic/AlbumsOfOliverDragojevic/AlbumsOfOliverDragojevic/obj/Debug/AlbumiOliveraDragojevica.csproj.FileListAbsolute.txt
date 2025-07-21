@@ -1,0 +1,16 @@
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.csproj.AssemblyReference.cache
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\App.g.cs
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica_MarkupCompile.cache
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\bin\Debug\AlbumiOliveraDragojevica.exe.config
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\bin\Debug\AlbumiOliveraDragojevica.exe
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\bin\Debug\AlbumiOliveraDragojevica.pdb
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\MainWindow.g.cs
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica_MarkupCompile.lref
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\MainWindow.baml
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.g.resources
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.Properties.Resources.resources
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.csproj.GenerateResource.cache
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.exe
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.pdb
+C:\Users\Korisnik\OneDrive\Desktop\FAKULTET\VI. SEMESTAR\IUIS\VEZBE\PROJEKAT1\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\AlbumiOliveraDragojevica\obj\Debug\AlbumiOliveraDragojevica.exe.config

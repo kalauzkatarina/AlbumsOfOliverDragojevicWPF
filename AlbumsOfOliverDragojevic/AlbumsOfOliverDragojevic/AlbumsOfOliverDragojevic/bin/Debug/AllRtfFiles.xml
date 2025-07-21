@@ -1,0 +1,44 @@
+﻿<ArrayOfAlbum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Album>
+		<PublishedYear>1988</PublishedYear>
+		<AlbumName>Svirajte noćas za moju dušu</AlbumName>
+		<PathToImage>/Images/SvirajteNocasZaMojuDusu.jpg</PathToImage>
+		<PathToRTFFile>RtfFiles/SvirajteNocasZaMojuDusu.rtf</PathToRTFFile>
+		<DateAdded>18/07/2025</DateAdded>
+	</Album>
+	<Album>
+		<PublishedYear>2002</PublishedYear>
+		<AlbumName>Trag U Beskraju</AlbumName>
+		<PathToImage>/Images/TragUBeskraju.jpg</PathToImage>
+		<PathToRTFFile>RtfFiles/TragUBeskraju.rtf</PathToRTFFile>
+		<DateAdded>18/07/2025</DateAdded>
+	</Album>
+	<Album>
+		<PublishedYear>2000</PublishedYear>
+		<AlbumName>Dvi,Tri Riči</AlbumName>
+		<PathToImage>/Images/DviTriRici.jpeg</PathToImage>
+		<PathToRTFFile>RtfFiles/DviTriRici.rtf</PathToRTFFile>
+		<DateAdded>19/07/2025</DateAdded>
+	</Album>
+	<Album>
+		<PublishedYear>1997</PublishedYear>
+		<AlbumName>Duša Mi Je More</AlbumName>
+		<PathToImage>/Images/DusaMiJeMore.jpeg</PathToImage>
+		<PathToRTFFile>RtfFiles/DusaMiJeMore.rtf</PathToRTFFile>
+		<DateAdded>19/07/2025</DateAdded>
+	</Album>
+	<Album>
+		<PublishedYear>2005</PublishedYear>
+		<AlbumName>Vridilo Je</AlbumName>
+		<PathToImage>/Images/VridiloJe.jpg</PathToImage>
+		<PathToRTFFile>RtfFiles/VridiloJe.rtf</PathToRTFFile>
+		<DateAdded>19/07/2025</DateAdded>
+	</Album>
+	<Album>
+		<PublishedYear>2010</PublishedYear>
+		<AlbumName>Samo Da Je Tu</AlbumName>
+		<PathToImage>/Images/SamoDaJeTu.jpeg</PathToImage>
+		<PathToRTFFile>RtfFiles/SamoDaJeTu.rtf</PathToRTFFile>
+		<DateAdded>19/07/2025</DateAdded>
+	</Album>
+</ArrayOfAlbum>
