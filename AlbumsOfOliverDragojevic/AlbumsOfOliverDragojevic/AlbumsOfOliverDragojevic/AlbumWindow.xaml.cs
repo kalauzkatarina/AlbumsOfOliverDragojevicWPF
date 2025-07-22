@@ -164,5 +164,10 @@ namespace AlbumsOfOliverDragojevic
                 album.IsSelected = checkBox.IsChecked == true;
             } 
         }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

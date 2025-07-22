@@ -149,5 +149,10 @@ namespace AlbumsOfOliverDragojevic
 
             return IsValid;
         }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

@@ -332,5 +332,10 @@ namespace AlbumsOfOliverDragojevic
                 RichTextBoxPlaceholder.Visibility = Visibility.Collapsed;
             }
         }
+
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

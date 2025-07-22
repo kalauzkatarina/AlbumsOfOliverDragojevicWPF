@@ -1,89 +1,152 @@
-﻿<Window x:Class="AlbumsOfOliverDragojevic.VisitorWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AlbumsOfOliverDragojevic"
-        mc:Ignorable="d"
-        Title="Details about the album" 
-        Height="500" 
-        Width="650"
-        WindowStartupLocation="CenterScreen"
-        Background="#EADDCA">
-    <Grid Margin="20">
+﻿<Window
+    x:Class="AlbumsOfOliverDragojevic.VisitorWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:AlbumsOfOliverDragojevic"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Details about the album"
+    Width="650"
+    Height="500"
+    AllowsTransparency="True"
+    Background="Transparent"
+    MouseLeftButtonDown="Window_MouseLeftButtonDown"
+    SizeToContent="WidthAndHeight"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
 
-        <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
+    <Canvas Width="650" Height="500">
+        <Canvas.Resources>
+            <DropShadowEffect
+                x:Key="MouseOverDropShadowEffect"
+                Direction="320"
+                Opacity="80"
+                ShadowDepth="10"
+                Color="PeachPuff" />
+        </Canvas.Resources>
+
+        <Path
+            Name="UIPath"
+            Width="650"
+            Height="500"
+            Fill="#EADDCA"
+            Stretch="Fill"
+            Stroke="DarkGray"
+            StrokeThickness="2">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="10,0">
+                        <ArcSegment
+                            IsLargeArc="False"
+                            Point="0,10"
+                            RotationAngle="180"
+                            Size="10,10"
+                            SweepDirection="Counterclockwise" />
+                        <LineSegment Point="0,340" />
+                        <ArcSegment
+                            IsLargeArc="False"
+                            Point="10,350"
+                            RotationAngle="0"
+                            Size="10,10"
+                            SweepDirection="Counterclockwise" />
+                        <LineSegment Point="540,350" />
+                        <ArcSegment
+                            IsLargeArc="False"
+                            Point="550,340"
+                            RotationAngle="180"
+                            Size="10,10"
+                            SweepDirection="Counterclockwise" />
+                        <LineSegment Point="550,10" />
+                        <ArcSegment
+                            IsLargeArc="False"
+                            Point="540,0"
+                            RotationAngle="180"
+                            Size="10,10"
+                            SweepDirection="Counterclockwise" />
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+
+        <Grid
+            Width="600"
+            Height="450"
+            Margin="20">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-        <RichTextBox
-             Grid.Column="0"
-             Margin="10"
-             IsReadOnly="True"
-             VerticalScrollBarVisibility="Auto"
-             x:Name="rtfPreview"/>  
+            <RichTextBox
+                x:Name="rtfPreview"
+                Grid.Column="0"
+                Margin="10"
+                IsReadOnly="True"
+                VerticalScrollBarVisibility="Auto" />
 
-        <Grid Grid.Column="1" Margin="10">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="Auto"/>
-            </Grid.RowDefinitions>
-            <StackPanel
-                Grid.Row="0"
-                VerticalAlignment="Top">
-                <TextBlock
-                    Text="Album name:"
-                    FontWeight="Bold"
-                    Foreground="#2b1d0e"
-                    FontSize="14"/>
-                <TextBlock
-                    Text="{Binding AlbumName}"
-                    Margin="0 0 0 10"
-                    TextWrapping="Wrap"
-                    Foreground="#2b1d0e"
-                    FontSize="14"/>
+            <Grid Grid.Column="1" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" VerticalAlignment="Top">
+                    <TextBlock
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#2b1d0e"
+                        Text="Album name:" />
+                    <TextBlock
+                        Margin="0,0,0,10"
+                        FontSize="14"
+                        Foreground="#2b1d0e"
+                        Text="{Binding AlbumName}"
+                        TextWrapping="Wrap" />
 
-                <TextBlock
-                    Text="Published year:"
-                    FontWeight="Bold"
-                    Foreground="#2b1d0e"
-                    FontSize="14"/>
-                <TextBlock
-                    Text="{Binding PublishedYear}"
-                    Margin="0 0 0 10"
-                    Foreground="#2b1d0e"
-                    FontSize="14"/>
+                    <TextBlock
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#2b1d0e"
+                        Text="Published year:" />
+                    <TextBlock
+                        Margin="0,0,0,10"
+                        FontSize="14"
+                        Foreground="#2b1d0e"
+                        Text="{Binding PublishedYear}" />
 
-                <TextBlock
-                    Text="Date of adding:"
-                    FontWeight="Bold"
-                    Foreground="#2b1d0e"
-                    FontSize="14"/>
-                <TextBlock
-                    Text="{Binding DateAdded}"
-                    Margin="0 0 0 10"
-                    Foreground="#2b1d0e"
-                    FontSize="14"/>
+                    <TextBlock
+                        FontSize="14"
+                        FontWeight="Bold"
+                        Foreground="#2b1d0e"
+                        Text="Date of adding:" />
+                    <TextBlock
+                        Margin="0,0,0,10"
+                        FontSize="14"
+                        Foreground="#2b1d0e"
+                        Text="{Binding DateAdded}" />
 
-                <Image Source="{Binding PathToImage}" 
-                       Height="220" 
-                       Width="220"
-                       HorizontalAlignment="Left"/>
-            </StackPanel>
+                    <Image
+                        Width="220"
+                        Height="220"
+                        HorizontalAlignment="Left"
+                        Source="{Binding PathToImage}" />
+                </StackPanel>
 
-            <Button
-                Grid.Row="1"
-                x:Name="ExitButton"
-                Content="Exit"
-                Width="80"
-                Height="25"
-                FontSize="14"
-                FontWeight="DemiBold"
-                Margin="0 10 0 0"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Bottom"
-                Click="ExitButton_Click"/>
+                <Button
+                    x:Name="ExitButton"
+                    Grid.Row="1"
+                    Width="80"
+                    Height="25"
+                    Margin="0,10,0,0"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Click="ExitButton_Click"
+                    Content="Exit"
+                    FontSize="14" />
+            </Grid>
         </Grid>
-    </Grid>
+    </Canvas>
+
+
 </Window>

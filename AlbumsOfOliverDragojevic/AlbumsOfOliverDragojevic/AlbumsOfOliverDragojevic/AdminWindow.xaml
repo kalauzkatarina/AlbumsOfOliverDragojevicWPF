@@ -10,7 +10,12 @@
         Height="550" 
         Width="650"
         WindowStartupLocation="CenterScreen"
-        Background="#EADDCA">
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        SizeToContent="WidthAndHeight"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+        
     <Window.Resources>
         <Style 
              x:Key="DefaultButtonStyle" 
@@ -24,252 +29,284 @@
         </Style>
     </Window.Resources>
 
-    <Grid Margin="20">
+    <Canvas 
+        Width="650" 
+        Height="550">
+        <Canvas.Resources>
+            <DropShadowEffect
+                 x:Key="MouseOverDropShadowEffect"
+                 Direction="320"
+                 Opacity="80"
+                 ShadowDepth="10"
+                 Color="PeachPuff" />
+        </Canvas.Resources>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1.5*"/>
-            <ColumnDefinition Width="3*"/>
-        </Grid.ColumnDefinitions>
+        <Path
+            Name="UIPath"
+            Fill="#EADDCA"
+            Stroke="DarkGray"
+            StrokeThickness="2" Height="550" Stretch="Fill" Width="650">
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="10,0">
+                        <ArcSegment SweepDirection="Counterclockwise" Size="10,10" Point="0,10" RotationAngle="180" IsLargeArc="False"/>
+                        <LineSegment Point="0,340"/>
+                        <ArcSegment SweepDirection="Counterclockwise" Size="10,10" Point="10,350" RotationAngle="0" IsLargeArc="False"/>
+                        <LineSegment Point="540,350"/>
+                        <ArcSegment SweepDirection="Counterclockwise" Size="10,10" Point="550,340" RotationAngle="180" IsLargeArc="False"/>
+                        <LineSegment Point="550,10"/>
+                        <ArcSegment SweepDirection="Counterclockwise" Size="10,10" Point="540,0" RotationAngle="180" IsLargeArc="False"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <Grid Canvas.Top="25" Canvas.Left="30" Height="510" Width="610" >
 
-        <StackPanel
-            Grid.Column="0"
-            Margin="10"
-            VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
 
-            <TextBlock 
-                Text="Album name:"
-                FontWeight="Bold"
-                Foreground="#2b1d0e"/>
-            <TextBox
-                x:Name="AlbumNameTextBox"
-                Margin="0 5 0 10"
-                Height="22"
-                GotFocus="AlbumNameTextBox_GotFocus"
-                LostFocus="AlbumNameTextBox_LostFocus"
-                Text=""/>
-            <Label
-                x:Name="AlbumNameErrorLabel"
-                Content=""
-                Foreground="Red"/>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-            <TextBlock
-                Text="Published year:"
-                FontWeight="Bold"
-                Foreground="#2b1d0e"/>
-            <TextBox
-                x:Name="PublishedYearTextBox"
-                Margin="0 5 0 10"
-                Height="22"
-                GotFocus="PublishedYearTextBox_GotFocus"
-                LostFocus="PublishedYearTextBox_LostFocus"
-                Text=""/>
-            <Label
-                 x:Name="PublishedYearErrorLabel"
-                 Content=""
-                 Foreground="Red"/>
+            <StackPanel 
+        Grid.Column="0"
+        Margin="10 0 10 10">
 
-            <TextBlock
-                Text="Date (dd/mm/yyyy):"
-                FontWeight="Bold"
-                Foreground="#2b1d0e"/>
-            <TextBox
-                x:Name="DateAddedTextBox"
-                Margin="0 5 0 10"
-                Height="22"/>
-
-            <Button
-                x:Name="ChooseImageButton"
-                Content="Choose image"
-                Click="ChooseImageButton_Click"
-                Width="120"
-                Height="23"
-                FontSize="14"
-                Background="#2b1d0e"
-                Foreground="white"
-                Margin="0 0 0 10"/>
-            <Border 
-                 BorderBrush="#2b1d0e"
-                 BorderThickness="1"
-                 Background="White"
-                 Height="150"
-                 Width="180">
-                <Image
-                     x:Name="ImagePreview"
-                     Width="150"
-                     Height="150"
-                     Stretch="Uniform"/>
-            </Border>
-        </StackPanel>
-
-        <StackPanel 
-            Grid.Column="0"
-            Grid.Row="1"
-            Orientation="Horizontal" 
-            VerticalAlignment="Bottom"
-            HorizontalAlignment="Center"
-            Margin="0 20 0 0">
-            <Button 
-                x:Name="FinishButton"
-                Content="Finish" 
-                Width="80"
-                Height="23"
-                FontSize="14"
-                Click="FinishButton_Click" 
-                Background="#2b1d0e"
-                Foreground="White"
-                Margin="0 0 35 0"/>
-            <Button 
-                x:Name="CancelButton"
-                Content="Cancel" 
-                Width="80" 
-                Height="23"
-                FontSize="14"
-                Click="CancelButton_Click"/>
-            
-        </StackPanel>
-
-
-        <DockPanel
-            Grid.Row="0"
-            Grid.Column="1"
-            Margin="10">
-            <ToolBar 
-                Name="EditorToolBar"
-                DockPanel.Dock="Top">
-                <ToggleButton 
-                    Name="BoldToggleButton"
-                    Command="EditingCommands.ToggleBold"
-                    ToolTip="Bold">
-                    <fa5:SvgAwesome
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Foreground="Black"
-                        Icon="Solid_Bold"
-                        Height="15"/>
-                </ToggleButton>
-                <Separator/>
-
-                <ToggleButton
-                    Name="ItalicToggleButton"
-                    Command="EditingCommands.ToggleItalic"
-                    ToolTip="Italic">
-                    <fa5:SvgAwesome 
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Foreground="Black"
-                        Icon="Solid_Italic"
-                        Height="15"/>
-                </ToggleButton>
-                <Separator/>
-                <ToggleButton
-                    Name="UnderlineToggleButton"
-                    Command="EditingCommands.ToggleUnderline"
-                    ToolTip="Underline">
-                    <fa5:SvgAwesome
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Foreground="Black"
-                        Icon="Solid_Underline"
-                        Height="15"/>
-                </ToggleButton>
-
-                <Separator/>
-                <ComboBox
-                     Name="FontFamilyComboBox"
-                     Width="150"
-                     IsTextSearchCaseSensitive="False"
-                     IsTextSearchEnabled="True"
-                     SelectionChanged="FontFamilyComboBox_SelectionChanged">
-                    <ComboBox.ItemTemplate>
-                        <DataTemplate>
-                            <TextBlock
-                             MaxWidth="200"
-                             FontFamily="{Binding}"
-                             Text="{Binding}" />
-                        </DataTemplate>
-                    </ComboBox.ItemTemplate>
-                </ComboBox>
-
-                <ComboBox 
-                    x:Name="FontSizeComboBox" 
-                    Width="40" 
-                    SelectionChanged="FontSizeComboBox_SelectionChanged">
-                    <ComboBoxItem Content="10"/>
-                    <ComboBoxItem Content="12"/>
-                    <ComboBoxItem Content="14"/>
-                    <ComboBoxItem Content="16"/>
-                    <ComboBoxItem Content="18"/>
-                    <ComboBoxItem Content="24"/>
-                    <ComboBoxItem Content="32"/>
-                </ComboBox>
-
-                <ComboBox 
-                    x:Name="FontColorComboBox" 
-                    Width="85" 
-                    SelectionChanged="FontColorComboBox_SelectionChanged">
-                    <ComboBox.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Orientation="Horizontal">
-                                <Rectangle 
-                                    Width="15" 
-                                    Height="15" 
-                                    Fill="{Binding Brush}" 
-                                    Margin="0,0,5,0"/>
-                                <TextBlock Text="{Binding Name}"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </ComboBox.ItemTemplate>
-                </ComboBox>
-            </ToolBar>
-
-            <DockPanel Margin="0,10,0,0" LastChildFill="True">
-
-                <Label 
-                   x:Name="RichTextBoxErrorLabel" 
-                   Foreground="Red" 
-                   DockPanel.Dock="Bottom" 
-                   Visibility="Visible"/>
-
-                <Grid>
-                    <RichTextBox 
-                        x:Name="EditorRichTextBox" 
-                        VerticalScrollBarVisibility="Auto"
-                        SelectionChanged="EditorRichTextBox_SelectionChanged"
-                        GotFocus="EditorRichTextBox_GotFocus"
-                        LostFocus="EditorRichTextBox_LostFocus"
-                        TextChanged="EditorRichTextBox_TextChanged"/>
-
-                    <TextBlock 
-                        x:Name="RichTextBoxPlaceholder"
-                        Text="Enter album description..." 
-                        Foreground="LightSlateGray"
-                        FontStyle="Italic"
-                        Margin="10,5,0,0"
-                        IsHitTestVisible="False"
-                        VerticalAlignment="Top"
-                        HorizontalAlignment="Left"
-                        Visibility="Visible"/>
-                </Grid>
-            </DockPanel>
-        </DockPanel>
-
-        <StatusBar 
-           Grid.Column="1"
-           Grid.Row="1"
-           Height="23"
-           VerticalAlignment="Bottom"
-           Margin="10 0 10 0">  
-            <StatusBarItem>
                 <TextBlock 
-                 x:Name="WordCountTextBlock" 
-                 Text="Words: 0"
-                 FontSize="14"/>
-            </StatusBarItem>
-        </StatusBar>
-    </Grid>
+            Text="Album name:"
+            FontWeight="Bold"
+            Foreground="#2b1d0e"/>
+                <TextBox
+            x:Name="AlbumNameTextBox"
+            Margin="0 5 0 10"
+            Height="22"
+            GotFocus="AlbumNameTextBox_GotFocus"
+            LostFocus="AlbumNameTextBox_LostFocus"
+            Text=""/>
+                <Label
+            x:Name="AlbumNameErrorLabel"
+            Content=""
+            Foreground="Red"/>
+
+                <TextBlock
+            Text="Published year:"
+            FontWeight="Bold"
+            Foreground="#2b1d0e"/>
+                <TextBox
+            x:Name="PublishedYearTextBox"
+            Margin="0 5 0 10"
+            Height="22"
+            GotFocus="PublishedYearTextBox_GotFocus"
+            LostFocus="PublishedYearTextBox_LostFocus"
+            Text=""/>
+                <Label
+             x:Name="PublishedYearErrorLabel"
+             Content=""
+             Foreground="Red"/>
+
+                <TextBlock
+            Text="Date (dd/mm/yyyy):"
+            FontWeight="Bold"
+            Foreground="#2b1d0e"/>
+                <TextBox
+            x:Name="DateAddedTextBox"
+            Margin="0 5 0 10"
+            Height="22"/>
+
+                <Button
+            x:Name="ChooseImageButton"
+            Content="Choose image"
+            Click="ChooseImageButton_Click"
+            Width="120"
+            Height="23"
+            FontSize="14"
+            Background="#2b1d0e"
+            Foreground="white"
+            Margin="0 0 0 10"/>
+                <Border 
+             BorderBrush="#2b1d0e"
+             BorderThickness="1"
+             Background="White"
+             Height="150"
+             Width="180">
+                    <Image
+                 x:Name="ImagePreview"
+                 Width="150"
+                 Height="150"
+                 Stretch="Uniform"/>
+                </Border>
+            </StackPanel>
+
+            <StackPanel  
+        Grid.Column="0"
+        Grid.Row="1"
+        Orientation="Horizontal"
+        HorizontalAlignment="Center">
+                <Button 
+            x:Name="FinishButton"
+            Content="Finish" 
+            Width="80"
+            Height="23"
+            FontSize="14"
+            Click="FinishButton_Click" 
+            Background="#2b1d0e"
+            Foreground="White"
+            Margin="0 0 35 0"/>
+                <Button 
+            x:Name="CancelButton"
+            Content="Cancel" 
+            Width="80" 
+            Height="23"
+            FontSize="14"
+            Click="CancelButton_Click"/>
+
+            </StackPanel>
+
+
+            <DockPanel
+        Grid.Row="0"
+        Grid.Column="1"
+        Margin="10">
+                <ToolBar 
+            Name="EditorToolBar"
+            DockPanel.Dock="Top">
+                    <ToggleButton 
+                Name="BoldToggleButton"
+                Command="EditingCommands.ToggleBold"
+                ToolTip="Bold">
+                        <fa5:SvgAwesome
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="Black"
+                    Icon="Solid_Bold"
+                    Height="15"/>
+                    </ToggleButton>
+                    <Separator/>
+
+                    <ToggleButton
+                Name="ItalicToggleButton"
+                Command="EditingCommands.ToggleItalic"
+                ToolTip="Italic">
+                        <fa5:SvgAwesome 
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="Black"
+                    Icon="Solid_Italic"
+                    Height="15"/>
+                    </ToggleButton>
+                    <Separator/>
+                    <ToggleButton
+                Name="UnderlineToggleButton"
+                Command="EditingCommands.ToggleUnderline"
+                ToolTip="Underline">
+                        <fa5:SvgAwesome
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Foreground="Black"
+                    Icon="Solid_Underline"
+                    Height="15"/>
+                    </ToggleButton>
+
+                    <Separator/>
+                    <ComboBox
+                 Name="FontFamilyComboBox"
+                 Width="150"
+                 IsTextSearchCaseSensitive="False"
+                 IsTextSearchEnabled="True"
+                 SelectionChanged="FontFamilyComboBox_SelectionChanged">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock
+                         MaxWidth="200"
+                         FontFamily="{Binding}"
+                         Text="{Binding}" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+
+                    <ComboBox 
+                x:Name="FontSizeComboBox" 
+                Width="40" 
+                SelectionChanged="FontSizeComboBox_SelectionChanged">
+                        <ComboBoxItem Content="10"/>
+                        <ComboBoxItem Content="12"/>
+                        <ComboBoxItem Content="14"/>
+                        <ComboBoxItem Content="16"/>
+                        <ComboBoxItem Content="18"/>
+                        <ComboBoxItem Content="24"/>
+                        <ComboBoxItem Content="32"/>
+                    </ComboBox>
+
+                    <ComboBox 
+                x:Name="FontColorComboBox" 
+                Width="85" 
+                SelectionChanged="FontColorComboBox_SelectionChanged">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Rectangle 
+                                Width="15" 
+                                Height="15" 
+                                Fill="{Binding Brush}" 
+                                Margin="0,0,5,0"/>
+                                    <TextBlock Text="{Binding Name}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </ToolBar>
+
+                <DockPanel Margin="0,10,0,0" LastChildFill="True">
+
+                    <Label 
+               x:Name="RichTextBoxErrorLabel" 
+               Foreground="Red" 
+               DockPanel.Dock="Bottom" 
+               Visibility="Visible"/>
+
+                    <Grid>
+                        <RichTextBox 
+                    x:Name="EditorRichTextBox" 
+                    VerticalScrollBarVisibility="Auto"
+                    SelectionChanged="EditorRichTextBox_SelectionChanged"
+                    GotFocus="EditorRichTextBox_GotFocus"
+                    LostFocus="EditorRichTextBox_LostFocus"
+                    TextChanged="EditorRichTextBox_TextChanged"/>
+
+                        <TextBlock 
+                    x:Name="RichTextBoxPlaceholder"
+                    Text="Enter album description..." 
+                    Foreground="LightSlateGray"
+                    FontStyle="Italic"
+                    Margin="10,5,0,0"
+                    IsHitTestVisible="False"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    Visibility="Visible"/>
+                    </Grid>
+                </DockPanel>
+            </DockPanel>
+
+            <StatusBar 
+       Grid.Column="1"
+       Grid.Row="1"
+       Height="23"
+       Margin="10 0 10 0">
+                <StatusBarItem>
+                    <TextBlock 
+             x:Name="WordCountTextBlock" 
+             Text="Words: 0"
+             FontSize="14"/>
+                </StatusBarItem>
+            </StatusBar>
+        </Grid>
+
+    </Canvas>
+
+    
 </Window>
