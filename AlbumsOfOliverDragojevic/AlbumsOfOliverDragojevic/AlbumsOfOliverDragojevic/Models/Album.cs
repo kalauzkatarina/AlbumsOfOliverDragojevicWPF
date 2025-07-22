@@ -71,6 +71,8 @@ namespace AlbumsOfOliverDragojevic.Models
                 return null;
             }
         }
+
+
         public string _pathToRTFFile = string.Empty;
         public string PathToRTFFile 
         { 

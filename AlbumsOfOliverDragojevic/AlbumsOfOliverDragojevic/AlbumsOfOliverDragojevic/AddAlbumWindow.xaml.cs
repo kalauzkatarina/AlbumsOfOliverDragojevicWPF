@@ -127,7 +127,7 @@ namespace AlbumsOfOliverDragojevic
                     AlbumName = albumName,
                     PublishedYear = int.Parse(PublishedYearTextBox.Text),
                     DateAdded = currentDateTime,
-                    PathToImage = ImagePreview.Source.ToString(),
+                    PathToImage = SelectedImagePath,
                     PathToRTFFile = relativeRtfPath,
                     IsSelected = false
                 };
@@ -235,6 +235,20 @@ namespace AlbumsOfOliverDragojevic
             {
                 isValid = false;
                 PublishedYearErrorLabel.Content = "Form field cannot be left empty!";
+                PublishedYearTextBox.BorderBrush = Brushes.Red;
+            }
+            else
+            {
+                PublishedYearErrorLabel.Content = string.Empty;
+                PublishedYearTextBox.BorderBrush = Brushes.Gray;
+            }
+
+            int result = 0;
+
+            if (!int.TryParse(PublishedYearTextBox.Text.Trim(), out result))
+            {
+                isValid = false;
+                PublishedYearErrorLabel.Content = "Published year must be a number!";
                 PublishedYearTextBox.BorderBrush = Brushes.Red;
             }
             else
