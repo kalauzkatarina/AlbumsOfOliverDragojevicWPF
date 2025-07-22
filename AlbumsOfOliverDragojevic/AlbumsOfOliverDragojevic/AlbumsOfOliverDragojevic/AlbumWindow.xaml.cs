@@ -152,7 +152,13 @@ namespace AlbumsOfOliverDragojevic
 
         private void ExitFromAlbumsButton_Click(object sender, RoutedEventArgs e)
         {
+            SaveDataAsXML();
             this.Close();      
+        }
+
+        private void SaveDataAsXML()
+        {
+            serializer.SerializeObject<ObservableCollection<Album>>(Albums, "AllRtfFiles.xml");
         }
 
         private void AlbumCheckBox_Click(object sender, RoutedEventArgs e)
