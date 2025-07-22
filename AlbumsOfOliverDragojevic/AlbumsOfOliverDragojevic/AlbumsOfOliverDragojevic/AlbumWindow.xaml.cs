@@ -45,7 +45,7 @@ namespace AlbumsOfOliverDragojevic
 
             if (Albums == null)
             {
-                MessageBox.Show("Nije se ucitalo nista.");
+                MessageBox.Show("Nothing has been read.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             this.DataContext = this;
 

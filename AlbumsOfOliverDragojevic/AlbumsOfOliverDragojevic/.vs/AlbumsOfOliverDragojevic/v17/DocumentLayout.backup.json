@@ -3,31 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|c:\\users\\korisnik\\onedrive\\desktop\\fakultet\\vi. semestar\\iuis\\vezbe\\projekat1\\albumsofoliverdragojevic\\albumsofoliverdragojevic\\albumsofoliverdragojevic\\bin\\debug\\allrtffiles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\bin\\debug\\allrtffiles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\addalbumwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\addalbumwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|c:\\users\\korisnik\\onedrive\\desktop\\fakultet\\vi. semestar\\iuis\\vezbe\\projekat1\\albumsofoliverdragojevic\\albumsofoliverdragojevic\\albumsofoliverdragojevic\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\addalbumwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\addalbumwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\albumwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\albumwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\albumwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\albumwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\albumwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\albumwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\visitorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\visitorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|c:\\users\\korisnik\\onedrive\\desktop\\fakultet\\vi. semestar\\iuis\\vezbe\\projekat1\\albumsofoliverdragojevic\\albumsofoliverdragojevic\\albumsofoliverdragojevic\\visitorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\addalbumwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\addalbumwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\bin\\debug\\allrtffiles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\bin\\debug\\allrtffiles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\visitorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\visitorwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -37,14 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\albumsofoliverdragojevic\\visitorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA411ED3-6369-4B22-9651-17F9C9C818E1}|AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic.csproj|solutionrelative:albumsofoliverdragojevic\\visitorwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,33 +54,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "AllRtfFiles.xml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\bin\\Debug\\AllRtfFiles.xml",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\bin\\Debug\\AllRtfFiles.xml",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\bin\\Debug\\AllRtfFiles.xml",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\bin\\Debug\\AllRtfFiles.xml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-07-22T09:47:24.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T09:47:24.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "AlbumWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumWindow.xaml.cs",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\AlbumWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumWindow.xaml.cs",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\AlbumWindow.xaml.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAADwv5oAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAKMAAAAAAAAAAAA2wAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T06:18:20.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T06:18:20.94Z"
             },
             {
               "$type": "Document",
@@ -90,14 +88,13 @@
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\MainWindow.xaml.cs",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowCUAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T06:13:44.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T06:13:44.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AdminWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AdminWindow.xaml",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\AdminWindow.xaml",
@@ -108,19 +105,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AddAlbumWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:13:28.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T21:13:28.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\MainWindow.xaml",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\MainWindow.xaml",
@@ -138,57 +134,55 @@
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumWindow.xaml",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\AlbumWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-21T21:12:52.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T21:12:52.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "VisitorWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\VisitorWindow.xaml",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\VisitorWindow.xaml",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\VisitorWindow.xaml",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\VisitorWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-18T18:39:55.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T18:39:55.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "AdminWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AdminWindow.xaml.cs",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\AdminWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AdminWindow.xaml.cs",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\AdminWindow.xaml.cs",
-              "ViewState": "AgIAAF8BAAAAAAAAAAAswGgBAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACIBAAAAAAAAAAAswDYBAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T19:07:58.729Z"
+              "WhenOpened": "2025-07-18T19:07:58.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "VisitorWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\VisitorWindow.xaml.cs",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\VisitorWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\VisitorWindow.xaml.cs",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\VisitorWindow.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwDAAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T18:52:38.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AddAlbumWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml.cs",
               "RelativeDocumentMoniker": "AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Korisnik\\OneDrive\\Desktop\\FAKULTET\\VI. SEMESTAR\\IUIS\\VEZBE\\PROJEKAT1\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml.cs",
               "RelativeToolTip": "AlbumsOfOliverDragojevic\\AddAlbumWindow.xaml.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAQwIEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwGsAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:45:39.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T20:45:39.084Z"
             }
           ]
         }

@@ -84,7 +84,7 @@ namespace AlbumsOfOliverDragojevic
                 }
                 catch
                 {
-                    MessageBox.Show("Error while opening the picture of the album");
+                    MessageBox.Show("Error while opening the picture of the album", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
 
@@ -308,6 +308,7 @@ namespace AlbumsOfOliverDragojevic
             {
                 RichTextBoxPlaceholder.Visibility = Visibility.Collapsed;
             }
+            UpdateWordCount();
         }
 
         private bool ValidateFormData()
